@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/greenlogo_removebg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestingApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".DurinRoot"
+            android:exported="false" />
+        <activity
+            android:name=".LimeGreen"
+            android:exported="false" />
+        <activity
+            android:name=".MangoMae"
+            android:exported="false" />
+        <activity
+            android:name=".GrapeDry"
+            android:exported="false" />
+        <activity
+            android:name=".GannamarChee"
+            android:exported="false" />
+        <activity
+            android:name=".RoseBlack"
+            android:exported="false" />
+        <activity
+            android:name=".CucumberStem"
+            android:exported="false" />
+        <activity
+            android:name=".CucumberMae"
+            android:exported="false" />
+        <activity
+            android:name=".CucumberDry"
+            android:exported="false" />
+        <activity
+            android:name=".ChiliMae"
+            android:exported="false" />
+        <activity
+            android:name=".OnionTouk"
+            android:exported="false" />
+        <activity
+            android:name=".OnionDry"
+            android:exported="false" />
+        <activity
+            android:name=".EggplantWhite"
+            android:exported="false" />
+        <activity
+            android:name=".PotatoWhite"
+            android:exported="false" />
+        <activity
+            android:name=".PotatoDot"
+            android:exported="false" />
+        <activity
+            android:name=".PotatoBlack"
+            android:exported="false" />
+        <activity
+            android:name=".mushroom_grow"
+            android:exported="false" />
+        <activity
+            android:name=".mushrroom_made"
+            android:exported="false" />
+        <activity
+            android:name=".mushroom_organ"
+            android:exported="false" />
+        <activity
+            android:name=".Disease"
+            android:exported="false" />
+        <activity
+            android:name=".Mushroom"
+            android:exported="false" />
+        <activity
+            android:name=".Eugenia"
+            android:exported="false" />
+        <activity
+            android:name=".Colon"
+            android:exported="false" />
+        <activity
+            android:name=".Cordyline"
+            android:exported="false" />
+        <activity
+            android:name=".Chrysanthemum"
+            android:exported="false" />
+        <activity
+            android:name=".Orchid"
+            android:exported="false" />
+        <activity
+            android:name=".Gladiolus"
+            android:exported="false" />
+        <activity
+            android:name=".Jasmin"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaAster"
+            android:exported="false" />
+        <activity
+            android:name=".Rose"
+            android:exported="false" />
+        <activity
+            android:name=".Flower"
+            android:exported="false" />
+        <activity
+            android:name=".VirousSoil"
+            android:exported="false" />
+        <activity
+            android:name=".WarmSoil"
+            android:exported="false" />
+        <activity
+            android:name=".FruitSoil"
+            android:exported="false" />
+        <activity
+            android:name=".Soil"
+            android:exported="false" />
+        <activity
+            android:name=".Yonepati"
+            android:exported="false" />
+        <activity
+            android:name=".Kitelan"
+            android:exported="false" />
+        <activity
+            android:name=".Monenyin"
+            android:exported="false" />
+        <activity
+            android:name=".Cucumber"
+            android:exported="false" />
+        <activity
+            android:name=".Buu"
+            android:exported="false" />
+        <activity
+            android:name=".Gallage"
+            android:exported="false" />
+        <activity
+            android:name=".Onion"
+            android:exported="false" />
+        <activity
+            android:name=".Carrot"
+            android:exported="false" />
+        <activity
+            android:name=".Panmonelar"
+            android:exported="false" />
+        <activity
+            android:name=".Gabbage"
+            android:exported="false" />
+        <activity
+            android:name=".Salat"
+            android:exported="false" />
+        <activity
+            android:name=".Chilli"
+            android:exported="false" />
+        <activity
+            android:name=".Eggplant"
+            android:exported="false" />
+        <activity
+            android:name=".Potato"
+            android:exported="false" />
+        <activity
+            android:name=".Tomato"
+            android:exported="false" />
+        <activity
+            android:name=".KitchenVegi"
+            android:exported="false" />
+        <activity
+            android:name=".Thinbaw"
+            android:exported="false" />
+        <activity
+            android:name=".Coconut"
+            android:exported="false" />
+        <activity
+            android:name=".WaterMelon"
+            android:exported="false" />
+        <activity
+            android:name=".Grape"
+            android:exported="false" />
+        <activity
+            android:name=".DragonFruit"
+            android:exported="false" />
+        <activity
+            android:name=".Limon"
+            android:exported="false" />
+        <activity
+            android:name=".Mango"
+            android:exported="false" />
+        <activity
+            android:name=".Banana"
+            android:exported="false" />
+        <activity
+            android:name=".Pineapple"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
