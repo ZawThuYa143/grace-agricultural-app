@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@android:color/white">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fruit"
+            android:icon="@drawable/baseline_emoji_nature_24"
+            android:title="သစ်သီးဝလံပင်များစိုက်ပျိုးခြင်း" />
+        <item
+            android:id="@+id/nav_kitchenfruit"
+            android:icon="@drawable/baseline_filter_vintage_24"
+            android:title="စားဖိုဆောင်သီးနှံများစိုက်ပျိုးခြင်း" />
+        <item
+            android:id="@+id/nav_flower"
+            android:icon="@drawable/baseline_local_florist_24"
+            android:title="ပန်းနှင့်အရွက်အလှပင်များစိုက်ပျိုးခြင်း" />
+        <item
+            android:id="@+id/nav_mushroom"
+            android:icon="@drawable/baseline_spa_24"
+            android:title="ကောက်ရိုးမှိုစိုက်ပျိုးခြင်း" />
+        <item
+            android:id="@+id/nav_soil"
+            android:icon="@drawable/baseline_grass_24"
+            android:title="မြေဆွေးပြုလုပ်ခြင်း" />
+        <item
+            android:id="@+id/nav_disease"
+            android:icon="@drawable/baseline_pest_control_24"
+            android:title="ရောဂါများနှင့် ကာကွယ်နှိမ်နင်းနည်းများ" />
+        <item
+            android:id="@+id/nav_aim"
+            android:icon="@drawable/baseline_light_mode_24"
+            android:title="ရည်ရွယ်ချက်" />
+    </group>
+</menu>

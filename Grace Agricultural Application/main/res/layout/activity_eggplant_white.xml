@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".EggplantWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ခရမ်းချဉ်ဖြူစေရီယမ်ပင်ညှိုးရောဂါ"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt0"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/fusarium_wilt_tomato1" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white2"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/fusarium_wilt_tomato3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white3"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white4"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white5"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white6"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white7"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eggplant_white8"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt8"/>
+
+    </LinearLayout>
+
+</ScrollView>

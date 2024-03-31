@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/greenlogo_removebg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="18dp"
+        android:text="Grace Agricultural Application"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/white"
+        android:text="အ‌ခြေခံစိုက်ပျိုးရေးနည်းစနစ်များ"/>
+
+</LinearLayout>

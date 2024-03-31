@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aim_frag"
+    android:background="@color/plae_green">
+
+    <ImageView
+        android:paddingTop="15dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/greenlogo_removebg"
+        android:id="@+id/image_title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@+id/image_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grace Agricultural Application"
+        android:id="@+id/appname_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@+id/appname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ရည်ရွယ်ချက်"
+        android:id="@+id/aim_text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:layout_below="@id/aim_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="25.0sp"
+        android:id="@+id/listview_aim"/>
+
+</RelativeLayout>

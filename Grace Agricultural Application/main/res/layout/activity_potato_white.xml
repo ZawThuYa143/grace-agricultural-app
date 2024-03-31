@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".PotatoWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="အာလူး/ခရမ်းချဉ်ပင်ညှိုး (လောင်ဖြူ) ရောဂါ"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt0"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/baterial_wilt_potato2" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potato_white1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potato_white2"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="565dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/baterial_wilt_tomato" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potato_white3"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potato_white4"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txt4"/>
+
+    </LinearLayout>
+
+</ScrollView>
